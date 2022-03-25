@@ -1,0 +1,5 @@
+stampaCubo (n)
+{
+ n
+}
+
