@@ -1,25 +1,27 @@
-
-const array =  [1, 2, 3, 4, 5, 6, 7, 8, 9, 5 ];
-
-let insieme = sommanumeri();
-console.log(risultato);
-
-
-function sommanumeri ( arrey2, somma)
- {
-    const array2 =  [1, 2, 3, 4, 5, 6, 7, 8, 9, 5 ];
-
-    
-    for (let i = 0; i < array.length; i++) 
+function somma(arrey)
+{
+   let s=0;
+    for(let i of arrey)
     {
-       
-  
-        somma = somma+ array[i];
-        
+        s+=i;
     }
-    return somma ;
-   
-  
- }
+    return s;
+}
 
 
+console.log(somma([5,10,5,5,10,10]))
+
+/*
+
+function somma(arrey)
+{
+   let s=0;
+    for(let i;i<arrey.lenght;i++)
+    {
+        s= s+arrey[i];
+    }
+    return s;
+}
+
+console.log(somma([5,10,5,5,5,10]))
+*/
