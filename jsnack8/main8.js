@@ -11,12 +11,11 @@ function somma(arrey)
 
 console.log(somma([5,10,5,5,10,10]))
 
-/*
-
-function somma(arrey)
-{
+/*  
+ 
+function somma(arrey)                                         DOVREBBE ESSERE UGUALE MA SENZA (FOR OF) NON FUNZIONA 
    let s=0;
-    for(let i;i<arrey.lenght;i++)
+    for(let i=0;i<arrey.lenght;i++)
     {
         s= s+arrey[i];
     }
